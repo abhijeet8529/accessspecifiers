@@ -11,8 +11,9 @@ class person:
 
 
 p = person("abhijeet", 21)
-print(p.name)
-print(p.age)
-print(p.profession)
+# print(p.name)
+# print(p.age)
+p.profession = "hero"
+print(p.profession())
 print(p.__dict__)  # ? __dict__ useful for understanding values
-print(help(person))  # ? help for understanding the selected code
+# print(help(person))  # ? help for understanding the selected code
